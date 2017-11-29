@@ -17,6 +17,9 @@ And then execute:
 Or install it yourself:
 
     $ gem install restful_routing
+Then start your engines!
+
+    $ rails s
 
 **You'll need to add `restful_routing.rb` to your `.gitignore`**
 
@@ -30,7 +33,7 @@ Then, while your server is running, whenever you save changes to routes.rb, rest
 
 While developing Rails apps, it is often difficult to remember which prefixes route to which controller#action. That is why it is useful to run `rails routes` and put that output in a file for later reference. This gem does that for you.
 
-After installing the gem in your Rails project, it is listening for saved changes in your `config/routes.rb`. Every time you make a change to routes.rb and you save it, restful_routing will look for `restful_routing.rb` in your root directory. It will update it if there or make it if not.
+After installing the gem in your Rails project and starting your server (`rails s`), it is listening for saved changes in your `config/routes.rb`. Every time you make a change to routes.rb and you save it, restful_routing will look for `restful_routing.rb` in your root directory. It will update it if there or make it if not.
 
 `restful_routing.rb` will contain the output of `rails routes`.
 
