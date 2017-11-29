@@ -15,7 +15,10 @@ module RestfulRouting
       "Not that you're a cotton-headed-ninny-muggins, \nbut you gotta fix something to get those routes.\n\n",
       "Ummm...your routes shouldn't look like that.\n\n",
       "Why you gotta be like that, man? Now you've gone an' offended Rails\nwith what you typed.\n\n",
-      "Dag, yo. Your routes have seen better days.\n\n"
+      "Dag, yo. Your routes have seen better days.\n\n",
+      "Who are you trying to fool? Those routes ain't gonna work!\n\n",
+      "You can't pull the wool over Rail's eyes. She saw that mistake in your routes...\n\n",
+      "It's like your momma don told you: sticks and stones can break my bones\n but wrong words in your routes will kill your project\n\n"
     ]
 
     File.open(base_path + '/restful_routing.rb', 'w+') do |f|
