@@ -23,10 +23,6 @@ Then start your engines! **Server must be running in order for changes to `route
 
 **You'll need to add `restful_routing.rb` to your `.gitignore`**
 
-Start your Rails server
-
-    $ rails s
-
 Then, while your server is running, whenever you save changes to routes.rb, restful_routing.rb will update
 
 ## Usage
