@@ -17,7 +17,7 @@ And then execute:
 Or install it yourself:
 
     $ gem install restful_routing
-Then start your engines!
+Then start your engines! **Server must be running in order for changes to `routes.rb` to be captured**
 
     $ rails s
 
